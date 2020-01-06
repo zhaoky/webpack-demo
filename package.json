@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/a.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "debug": "node --inspect-brk=5858 ./node_modules/.bin/webpack --watch"
   },
   "author": "",
   "license": "ISC",
